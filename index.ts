@@ -14,6 +14,7 @@ const observable = new Observable(
   }
 )
 
+
 console.log("I am about to subscribe");
 
 const subscriber = observable.subscribe({
